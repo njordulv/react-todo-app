@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+
+  .content {
+    width: 100%;
+    max-width: 560px;
+    margin: 0 auto;
+    padding: 0 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 72px;
+  margin-top: 50px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 0;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: antiquewhite;
+
+  &:hover {
+    background-color: bisque;
+  }
+}
+
+input {
+  font-family: "PT Sans", sans-serif;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+}
