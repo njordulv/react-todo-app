@@ -1,5 +1,4 @@
 .formButton {
-  background-color: aliceblue;
   margin: 0;
   min-height: 54px;
   min-width: 140px;
@@ -8,7 +7,7 @@
   justify-content: center;
 
   &:disabled {
-    opacity: 0.6;
+    opacity: 0.4;
     cursor: default;
     pointer-events: none;
   }
